@@ -1,6 +1,6 @@
 # Regex Tutorial
 
-This repository is quick rundown of the regex for "Macthing an Email".
+This repository is quick rundown of some basic concepts of regex, and we'll be using the "Macthing an Email" regex as an example.
 
 ## Summary
 As stated above this repository will describe the regex for "Matching an Email" or:
@@ -25,10 +25,10 @@ I will explain the relevant Regex Components such as Anchors, Qualifiers, Groupi
 ## Regex Components
 
 ### Anchors
-The basic Anchors used in this regex are denoted by the "^" and "$" characters repectivlely. On it's own "^" is used at the beginning of a string to match strings, whereas "$" is used at the end of a string to match strings. However, such as in the "Match an Email" regex, when "^" is at the beginning and "$" is simultaneously at the end, then it will only find strings that match all of the parameters present between the two anchors.
+The basic Anchors used in this regex are denoted by the "^" and "dollar sign" characters repectivlely. On it's own "^" is used at the beginning of a string to match strings, whereas "dollar sign" is used at the end of a string to match strings. However, such as in the "Match an Email" regex, when "^" is at the beginning and "dollar sign" is simultaneously at the end, then it will only find strings that match all of the parameters present between the two anchors.
 
 ### Quantifiers
-The first Quantifier we see in pour regex is denoted by the "+' character. This denotes that one or more of any given class or parameters are expected after the parameters that preceded the "+".
+The first Quantifier we see in pour regex is denoted by the "+' character. This denotes that one or more of any given class or parameters are expected after the parameters that preceded the "+" character.
 
 The second Quantifier present in our regex appears towards the end in the third is denoted by the "{}" characters:
 
@@ -47,12 +47,15 @@ The Grouping Constructs present in our regex are denoted by the "()" characters,
 ```
 ([a-z0-9_\.-]+)
 ```
+These set up the parameters of what's expected before the "@" in the email address.
 ```
 ([\da-z\.-]+)
 ```
+These set up the parameters of what's expected after the "@" in the email address, but before the "." in the email.
 ```
 ([a-z\.]{2,6})
 ```
+These set up the parameters of what's expected after the "." in the email address.
 
 ### Bracket Expressions
 
