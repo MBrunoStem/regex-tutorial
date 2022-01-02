@@ -38,7 +38,7 @@ The second Quantifier present in our regex appears towards the end in the third 
 ```
 [a-z\.]{2,6}
 ```
-Meaning that this regex is searching for no less than two but no more than six characters that match the parameters that preceded the Quantifier:
+The Bracket Expression that precedes the Quantifier is searching for any letter a-z or periods, and the Quantifier is stating that it's searching for no less than 2 but no more than 6 characters that match the criteria of the Bracket Expression.
 
 
 ### Grouping Constructs
@@ -98,11 +98,11 @@ This OR Operator is searching for a "." followed by 2 to 6 characters which can 
 
 
 ### Flags
-The Flags of our regex are denoted byt the "/" at the beginning an end of our regex. The Flags work with our Anchors to ensure that our searches matches all of our parameters set within the Flags by the Grouping Constructs, Bracket Expressions, Quantifiers, and Character Classes.
+The Flags of our regex are denoted by the "/" at the beginning an end of our regex. The Flags work with our Anchors to ensure that our searches matches all of our parameters set within the Flags by the Grouping Constructs, Bracket Expressions, Quantifiers, and Character Classes.
 
 
 ### Character Escapes
-There is one uniqe Character Escapes present in our regex, but it appears a total of three times in our regex.
+There is one uniqe Character Escape present in our regex, but it appears a total of three times in our regex.
 
 ```
 \.
