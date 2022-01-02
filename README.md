@@ -21,7 +21,7 @@ THEN I am presented with a brief summary of the corresponding aspect of the rege
 The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
 
 ## Deployed Site
-[Link](https://github.com/MBrunoStem/regex-tutorial)
+[Link](https://raw.githubusercontent.com/MBrunoStem/regex-tutorial/main/gist-template.md)
 
 ## Contributors
 Mario Bruno
