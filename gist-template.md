@@ -47,15 +47,15 @@ The Grouping Constructs present in our regex are denoted by the "()" characters,
 ```
 ([a-z0-9_\.-]+)
 ```
-These set up the parameters of what's expected before the "@" in the email address.
+These set up the parameters of what's expected before the "@" in the email address. It will accept any letter a to z, any number 0 to 9, underscores, periods, and dashes.
 ```
 ([\da-z\.-]+)
 ```
-These set up the parameters of what's expected after the "@" in the email address, but before the "." in the email.
+These set up the parameters of what's expected after the "@" in the email address, but before the "." in the email. It will accept any digit, any letter a to z, periods, and dashes.
 ```
 ([a-z\.]{2,6})
 ```
-These set up the parameters of what's expected after the "." in the email address.
+These set up the parameters of what's expected after the "." in the email address. It will accept any letter a to z or periods, and the Quantifier at the end ensures there will be 2 to 6 characters in this group.
 
 
 ### Bracket Expressions
